@@ -1,0 +1,135 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #fff;
+	font: 1em/1.2 "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container
+{
+  color: #000;
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+.header
+{
+	color: #000;
+  margin-bottom: -5px;
+}
+
+.nav-bar
+{
+  color: #000;
+	padding: 0;
+}
+
+.content
+{
+  background-color: #fff;
+  color: #000;
+}
+
+.nav
+{
+	margin: 0;
+	padding: 0;
+  list-style: none;
+  color: #000;
+}
+
+.nav li
+{
+	display: inline;
+  margin: 0;
+  color: #000;
+}
+
+.nav a
+{
+  display: block;
+  padding: 11px 20px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid gray;
+}
+
+.list-unstyled
+{
+	padding-left: 0;
+	list-style: none;
+}
+
+.list-inline
+{
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
+
+.list-inline > li
+{
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* Slideshow CSS */
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+  width: 1024px;
+	margin-bottom: 110px;
+}
+
+.slider-wrapper {
+	height: 400px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+  height: 500px;
+  padding-left: 70px;
+	opacity: 0;
+	transition: opacity 6s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+/* slideshow end */
+
+.text {
+  padding-left: 310px;
+  margin-top: -450px;
+}
+
+/* RESPONSIVE CSS */
+
+@media (min-width: 672px)
+{
+	.nav-bar { padding: 16px 48px; }
+	.content { padding: 32px 48px; }
+  .footer { padding: 32px 48px; }
+	
+	.nav li
+	{
+		display: inline;
+		margin: 0 16px 0 0;
+	}
+	
+	.nav a
+	{
+		display: inline;
+		padding: 0;
+		border-bottom: 0;
+	}
+}
