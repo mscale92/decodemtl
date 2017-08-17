@@ -4,7 +4,7 @@ body
 	padding: 0;
 	color: #333;
 	background-color: #fff;
-	font: 1em/1.2 "Helvetica Neue", Helvetica, sans-serif;
+	font: 16px/19.2 "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .container
@@ -36,7 +36,6 @@ body
 {
 	margin: 0;
 	padding: 0;
-  list-style: none;
   color: #000;
 }
 
@@ -52,21 +51,19 @@ body
   display: block;
   padding: 11px 20px;
 	color: #000;
-	text-decoration: none;
 	border-bottom: 1px solid gray;
 }
 
 .list-unstyled
 {
 	padding-left: 0;
-	list-style: none;
 }
 
 .list-inline
 {
 	padding-left: 0;
 	margin-left: -5px;
-	list-style: none;
+
 }
 
 .list-inline > li
