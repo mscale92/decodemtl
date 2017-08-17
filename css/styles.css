@@ -4,13 +4,13 @@ body
 	padding: 0;
 	color: #333;
 	background-color: #fff;
-	font: 16px/19.2 "Helvetica Neue", Helvetica, sans-serif;
+	font:"Helvetica Neue", Helvetica, sans-serif;
 }
 
 .container
 {
   color: #000;
-	max-width: 50em;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -51,6 +51,7 @@ body
   display: block;
   padding: 11px 20px;
 	color: #000;
+	text-decoration: none;
 	border-bottom: 1px solid gray;
 }
 
@@ -63,7 +64,6 @@ body
 {
 	padding-left: 0;
 	margin-left: -5px;
-
 }
 
 .list-inline > li
